@@ -14,12 +14,11 @@ Cependant tous les fichiers de configuration restent disponible à la modificati
 ### Propriétés serveur
 Pour les identifiants des propriétés du serveur, veuillez utiliser les variables suivantes :
 ```bash
-Server name: '$server_name_'
-Server address: '$server_address_'
-Server port: '$server_port_'
-Query port: '$query_port_'
-RCON port: '$rcon_port_'
-RCON password: '$rcon_password_'
+Server name: '$server_name_pvp'
+Server port: '$server_port_pvp'
+Query port: '$query_port_pvp'
+RCON port: '$rcon_port_pvp'
+RCON password: '$rcon_password_pvp'
 ```
 
 ### Base de donnée
@@ -33,8 +32,8 @@ Port: '$mysql_port'
 Pour les identifiants de connexion pour les données spécifiques au serveur Hub, veuillez utiliser les variables suivantes :
 ```bash
 User: '$mysql_user_'
-Password: '$mysql_password_'
-Database: '$mysql_database_'
+Password: '$mysql_password_pvp'
+Database: '$mysql_database_pvp'
 ```
 
 Pour les identifiants de connexion pour les données communes à différents serveurs, veuillez utiliser les variables suivantes :
